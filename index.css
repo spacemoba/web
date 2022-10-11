@@ -236,14 +236,14 @@ nav .menu-btn i{
     align-items: center;
 }
 #team-1 {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     background-color: var(--color-text);
     margin-left: 20px;
 }
 #team-1-text {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
 }
 .team-1 {
@@ -252,15 +252,25 @@ nav .menu-btn i{
     padding: 20px;
 }
 /* TEAM 2*/
+.leaderboard-text {
+    font-size: 20px;
+}
+#inicio-text-h1 {
+    font-size: 34px;
+}
+#inicio-text-h2 {
+    font-size: 16px;
+    font-weight: 200;
+}
 #team-2 {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: var(--color-text);
     margin-left: 20px;
 }
 #team-2-text {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 600;
 }
 .team-2 {
@@ -270,14 +280,14 @@ nav .menu-btn i{
 }
 /* TEAM 3*/
 #team-3 {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background-color: var(--color-text);
     margin-left: 20px;
 }
 #team-3-text {
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 600;
 }
 .team-3 {
