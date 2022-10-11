@@ -21,4 +21,5 @@ ENGLISH:
  
 DEUTSCH: 
  Wenn Sie Fragen oder Ratschläge zum Quellcode haben, können Sie mir eine private Nachricht an meinen [Discord](deus4gt#0499) senden
+ 
 ![unknown](https://user-images.githubusercontent.com/115507987/195141802-bc738c52-3380-4f32-b4d5-a65135114e12.png)
