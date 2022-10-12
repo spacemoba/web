@@ -1,39 +1,47 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 :root {
     --background-header: #F7F7F7;
     --background-header-open: #F2F2F2;
     --main-color: #CB3030;
     --color-text: #000;
     --color-text-white: #fff;
+    --background-body: #e7e7e7;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 #twitter {
-    width: 30px;
+    width: 2vw;
 }
 #instagram  {
-    width: 30px;
-    margin-left: 15px;
+    width: 2vw;
+    margin-left: 1vw;
 }
 #hover {
     font-weight: 600;
+    color: var(--main-color);
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
 }
 .ul-header {
     margin-top: 5px;
+    font-size: 1vw;
 }
 .redes-sociales {
-    margin-left: 20px;
+    margin-left: 2vw;
     display: flex;
 }
 nav img {
-    width: 200px;
+    width: 10vw;
 }
 nav {
-    height: 80px;
+    height: 4vw;
     background-color: var(--background-header);
     display: flex;
     justify-content: space-between;
@@ -51,6 +59,7 @@ nav ul li a {
     text-decoration: none;
     margin: 0 5px;
     letter-spacing: 2;
+    margin-left: 1vw;
 }
 nav ul li a:hover,
 nav ul li a.activate {
@@ -86,23 +95,26 @@ nav .menu-btn i{
 #inicio-image {
     float: right;
     display: flex;
-    width: 600px;
+    width: 30vw;
     animation-name: NaveEspacial;
-    animation-duration: 20s;
+    animation-duration: 8s;
     animation-iteration-count: infinite;
 }
 #inicio-text-h1 {
-    font-size: 80px;
+    font-size: 6vw;
 }
 #inicio-text-h2 {
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: 200;
 }
 /* TEAMS */
+.leaderboard-text {
+    font-size: 2vw;
+}
 .equipos {
     min-height: 50px;
     background-color: var(--background-header-open);
-    padding: 20px;
+    padding: 50px;
     text-align: center;
 }
 .teams {
@@ -112,14 +124,14 @@ nav .menu-btn i{
 }
 /* TEAM 1*/
 #team-1 {
-    height: 90px;
-    width: 90px;
+    height: 5vw;
+    width: 5vw;
     border-radius: 50%;
     background-color: var(--color-text);
     margin-left: 20px;
 }
 #team-1-text {
-    font-size: 50px;
+    font-size: 3vw;
     font-weight: 600;
     color: var(--main-color);
 }
@@ -127,17 +139,19 @@ nav .menu-btn i{
     display: flex;
     align-items: center;
     padding: 20px;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 /* TEAM 2*/
 #team-2 {
-    height: 60px;
-    width: 60px;
+    height: 4vw;
+    width: 4vw;
     border-radius: 50%;
     background-color: var(--color-text);
     margin-left: 20px;
 }
 #team-2-text {
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 600;
 }
 .team-2 {
@@ -147,14 +161,14 @@ nav .menu-btn i{
 }
 /* TEAM 3*/
 #team-3 {
-    height: 60px;
-    width: 60px;
+    height: 4vw;
+    width: 4vw;
     border-radius: 50%;
     background-color: var(--color-text);
     margin-left: 20px;
 }
 #team-3-text {
-    font-size: 30px;
+    font-size: 3vw;
     font-weight: 600;
 }
 .team-3 {
@@ -166,40 +180,90 @@ nav .menu-btn i{
    0% {
     transform: translateY(0);
    }
-   10% {
-    transform: translateY(40px);
-   }
-   20% {
-    transform: translateY(-20px);
-   }
-   30% {
-    transform: translateY(10px);
-   }
-   40% {
+   25% {
     transform: translateY(30px);
    }
-   50% {
+   25% {
     transform: translateY(-30px);
-   }
-   60% {
-    transform: translateY(20px);
-   }
-   70% {
-    transform: translateY(-60px);
-   }
-   80% {
-    transform: translateY(-10px);
-   }
-   90% {
-    transform: translateY(20);
-   }
-   100% {
-    transform: translateY(0);
    }
    100% {
     transform: translateY(0);
    }
 }
+/* Valorant */
+.body-valorant {
+    padding: 120px;
+}
+.valorant {
+   background-color: var(--background-body);
+   min-height: 30vh;
+   width: 36%;
+   padding: 30px;
+   box-shadow: 0px 2px 7px #a1a1a1;
+   border-radius: 20px;
+}
+.valorant h2 {
+    font-size: 2.1vw;
+}
+.a-valorant {
+    padding-top: 20px;
+}
+.valorant a {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: var(--color-text);
+    border: solid 10px #F2F2F2;
+    border-radius: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0px 2px 7px #a1a1a1;
+    background-color: var(--background-header-open);
+}
+.valorant-image {
+    width: 18.2vw;
+    position: relative;
+    top: -360px;
+    right: -450px
+}
+/*lol
+.body-lol {
+    padding: 120px;
+}
+.lol {
+   background-color: var(--background-body);
+   min-height: 30vh;
+   width: 36%;
+   padding: 30px;
+   box-shadow: 0px 2px 7px #a1a1a1;
+   border-radius: 20px;
+}
+.lol h2 {
+    font-size: 50px;
+    text-align: right;
+}
+.a-lol {
+    padding-top: 20px;
+    text-align: right;
+}
+.lol a {
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--color-text);
+    border: solid 10px #F2F2F2;
+    border-radius: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0px 2px 7px #a1a1a1;
+    background-color: var(--background-header-open);
+}
+.lol-image {
+    width: 800px;
+    position: relative;
+    top: -360px;
+    right: 190px;
+}
+*/
+
 @media (max-width: 940px) {
     .redes-sociales {
         margin-left: 0px;
@@ -209,9 +273,13 @@ nav .menu-btn i{
         margin-left: 0;
         margin-top: 0px;
     }
+    nav img {
+        width: 27vw;
+        margin-top: 7px;
+    }
     nav ul {
         position: fixed;
-        top: 80px;
+        top: 11vw;
         left: -100%;
         background: var(--background-header-open);
         height: 100%;
@@ -235,7 +303,7 @@ nav .menu-btn i{
     }
 /* INICIO */
 .inicio {
-    background-color: #e7e7e7;
+    background-color: -background-body;
     height: 80vh;
     text-align: center;
     align-items: baseline;
