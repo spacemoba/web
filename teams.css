@@ -1,0 +1,293 @@
+:root {
+    --background-header: #F7F7F7;
+    --background-header-open: #F2F2F2;
+    --main-color: #CB3030;
+    --color-text: #000;
+    --color-text-white: #fff;
+    --background-body: #e7e7e7;
+}
+body {
+ background-color: var(--background-body);
+}
+footer {
+    margin-top: 5vw;
+}
+.footer-movil {
+    display: none;
+}
+.comments-movil {
+    display: none;
+}
+.page {
+    background-color: var(--background-body);
+}
+.team-perso img {
+    width: 20vw;
+    padding-top: 6vw;
+}
+.team-perso {
+    display: flex;
+    height: 100vh;
+    background-color: var(--background-body);
+}
+/* INFO */
+.info {
+    padding-top: 8vw;
+}
+.info h1 {
+    font-size: 4vw;
+    margin-top: 0.5vw;
+}
+/* */
+.location {
+    display: flex;
+    margin-top: 1vw;
+}
+.location i {
+    font-size: 2vw;
+    margin-left: 0.3vw;
+}
+.location h2 {
+    font-size: 1.3vw;
+    padding-left: 1vw;
+}
+.location img {
+    width: 2vw;
+    height: 1.2vw;
+    padding-top: 0;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+}
+/* OWNER */
+.owner {
+    display: flex;
+    margin-top: 2vw;
+}
+.owner i {
+    font-size: 2vw;
+}
+.owner h2 {
+    font-size: 1.3vw;
+    padding-left: 1vw;
+}
+.owner img {
+    width: 2vw;
+    height: 1.2vw;
+    padding-top: 0;
+    margin-top: 0.5vw;
+    margin-left: 1vw;
+}
+/* EQUIPO ASOCIADO */
+.equipo-asociado {
+    display: flex;
+}
+.equipo-asociado span{
+    font-weight: 600;
+    color: var(--main-color);
+}
+.equipo-asociado p {
+    padding-left: 0.6vw;
+    font-size: 1.3vw;
+}
+.equipo-asociado i{
+    font-size: 1.5vw;
+    padding-top: 0.3vw;
+    color: var(--main-color);
+}
+.info-team {
+    display: flex;
+}
+.roster {
+    margin-top: 3vw;
+    display: flex;
+}
+/* TORNEOS GANADOS */
+.torneos {
+    margin-top: 9vw;
+    margin-left: 5vw;
+}
+.torneos h4 {
+    font-size: 2.42vw;
+}
+.torneos p {
+    font-size: 2vw;
+}
+.partidos-ganados {
+    margin-top: 3vw;
+}
+.partidos-perdidos {
+    margin-top: 3vw;
+}
+/* JUGADORES */
+.titulares {
+    margin-top: 2vw;
+    font-size: 2vw;
+}
+.titulares ol {
+    list-style: none;
+}
+/* SUPLENTES */
+.suplentes {
+    margin-left: 2vw;
+    margin-top: 2vw;
+    font-size: 2vw;
+}
+.suplentes ol {
+    list-style: none;
+}
+/* ENTRENADORES */
+.entrenadores {
+    margin-left: 2vw;
+    margin-top: 2vw;
+    font-size: 2vw;
+}
+.entrenadores ol {
+    list-style: none;
+}
+.disqus-chat {
+    height: 20%;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 10vw;
+}
+
+@media (max-width: 940px) {
+    .page {
+        text-align: center;
+    }
+    .team-perso img {
+        width: 30vw;
+        padding-top: 16vw;
+    }
+    .team-perso {
+        display: block;
+    }
+    .info-team {
+        display: block;
+    }
+    .equipo-asociado {
+        justify-content: center;
+    }
+    .location {
+        justify-content: center;
+    }
+    .owner {
+        justify-content: center;
+    }
+    .roster {
+        display: block;
+        margin-left: 0;
+    }
+    .torneos {
+        justify-content: center;
+        margin-left: 0;
+    }
+    .torneos h4 {
+        font-size: 4vw;
+    }
+    .torneos p {
+        font-size: 3vw;
+    }
+    .equipo-asociado p {
+        padding-left: 0.6vw;
+        font-size: 3vw;
+    }
+    .equipo-asociado i{
+        font-size: 4vw;
+        padding-top: 0.2vw;
+        color: var(--main-color);
+    }
+    /* */
+   .location {
+    display: flex;
+    margin-top: 1vw;
+   }
+   .location i {
+    font-size: 5vw;
+
+   }
+   .location h2 {
+    font-size: 3.5vw;
+    padding-left: 1vw;
+   }
+   .location img {
+    width: 6vw;
+    height: 4vw;
+    padding-top: 0;
+    margin-top: 0.5vw;
+    margin-left: 2vw;
+   }
+   /* OWNER */
+   .owner {
+    display: flex;
+    margin-top: 2vw;
+   }
+   .owner i {
+    font-size: 5vw;
+
+   }
+   .owner h2 {
+    font-size: 3.5vw;
+    padding-left: 1vw;
+   }
+   .owner img {
+    width: 6vw;
+    height: 4vw;
+    padding-top: 0;
+    margin-top: 0.5vw;
+   }
+   /* JUGADORES */
+   .titulares {
+    margin-left: 0;
+       font-size: 4vw;
+   }
+   .titulares ol {
+       list-style: none;
+   }
+   /* SUPLENTES */
+   .suplentes {
+       margin-left: 0;
+       margin-top: 5vw;
+       font-size: 4vw;
+   }
+   .suplentes ol {
+       list-style: none;
+   }
+   /* ENTRENADORES */
+   .entrenadores {
+    margin-left: 0;
+    margin-top: 5vw;
+    font-size: 4vw;
+   }
+   .entrenadores ol {
+    list-style: none;
+   }
+
+   .disqus-chat {
+     display: none;
+   }
+   .comments-movil {
+    margin-top: 10vw;
+    display: block;
+   }
+   .info {
+    padding-top: 8vw;
+    }
+    .info h1 {
+        font-size: 7vw;
+        margin-top: 0.5vw;
+    }
+    footer {
+        display: none;
+    }
+    .footer-movil {
+        background-color: var(--background-header);
+        margin-top: 10vw;
+        text-align: left;
+        display: block;
+    }
+    .footer-movil p{
+        margin-left: 6vw;
+    }
+
+}
