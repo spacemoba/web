@@ -1,0 +1,79 @@
+:root {
+    --background-header: #F7F7F7;
+    --background-header-open: #F2F2F2;
+    --main-color: #CB3030;
+    --color-text: #000;
+    --color-text-white: #fff;
+    --background-body: #e7e7e7;
+}
+.teams-asociados {
+    padding: 1.4vw;
+}
+.equipo-asociado {
+    padding-top: 5vw;
+    display: flex;
+}
+.equipo-asociado span{
+    font-weight: 600;
+    color: var(--main-color);
+}
+.equipo-asociado p {
+    padding-left: 0.6vw;
+    font-size: 1.6vw;
+}
+.equipo-asociado i{
+    font-size: 1.8vw;
+    padding-top: 0.3vw;
+    color: var(--main-color);
+}
+.facheritos a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+.facheritos img{
+    width: 6vw;
+}
+.facheritos p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+@media (max-width: 940px) { 
+    .teams-asociados {
+        padding: 1.4vw;
+        justify-content: center;
+    }
+    .equipo-asociado {
+        padding-top: 10vw;
+        display: flex;
+        justify-content: center;
+    }
+    .equipo-asociado span{
+        font-weight: 600;
+        color: var(--main-color);
+    }
+    .equipo-asociado p {
+        padding-left: 0.6vw;
+        font-size: 4vw;
+
+    }
+    .equipo-asociado i{
+        font-size: 4vw;
+        padding-top: 1vw;
+        color: var(--main-color);
+    }
+    .facheritos a{
+        text-decoration: none;
+        color: var(--color-text);
+    }
+    .facheritos img{
+        padding-top: 2vw;
+        width: 15vw;
+    }
+    .facheritos p {
+        text-align: center;
+        font-weight: 600;
+        font-size: 5vw;
+    }
+}
