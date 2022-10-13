@@ -13,6 +13,15 @@
     margin: 0;
     padding: 0;
 }
+footer {
+    background-color: var(--background-header);
+    text-align: left;
+    display: block;
+}
+footer p{
+    margin-left: 3vw;
+    font-size: 1.2vw;
+}
 #twitter {
     width: 2vw;
 }
@@ -85,7 +94,7 @@ nav .menu-btn i{
 /* INICIO */
 .inicio {
     background-color: #e7e7e7;
-    height: 91vh;
+    height: 100vh;
     overflow: hidden;
     padding: 50px;
     display: flex;
@@ -190,96 +199,29 @@ nav .menu-btn i{
     transform: translateY(0);
    }
 }
-/* Valorant */
-.body-valorant {
-    padding: 120px;
-}
-.valorant {
-   background-color: var(--background-body);
-   min-height: 30vh;
-   width: 36%;
-   padding: 30px;
-   box-shadow: 0px 2px 7px #a1a1a1;
-   border-radius: 20px;
-}
-.valorant h2 {
-    font-size: 2.1vw;
-}
-.a-valorant {
-    padding-top: 20px;
-}
-.valorant a {
-    font-size: 1.2vw;
-    text-decoration: none;
-    color: var(--color-text);
-    border: solid 10px #F2F2F2;
-    border-radius: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
-    box-shadow: 0px 2px 7px #a1a1a1;
-    background-color: var(--background-header-open);
-}
-.valorant-image {
-    width: 18.2vw;
-    position: relative;
-    top: -360px;
-    right: -450px
-}
-/*lol
-.body-lol {
-    padding: 120px;
-}
-.lol {
-   background-color: var(--background-body);
-   min-height: 30vh;
-   width: 36%;
-   padding: 30px;
-   box-shadow: 0px 2px 7px #a1a1a1;
-   border-radius: 20px;
-}
-.lol h2 {
-    font-size: 50px;
-    text-align: right;
-}
-.a-lol {
-    padding-top: 20px;
-    text-align: right;
-}
-.lol a {
-    font-size: 30px;
-    text-decoration: none;
-    color: var(--color-text);
-    border: solid 10px #F2F2F2;
-    border-radius: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
-    box-shadow: 0px 2px 7px #a1a1a1;
-    background-color: var(--background-header-open);
-}
-.lol-image {
-    width: 800px;
-    position: relative;
-    top: -360px;
-    right: 190px;
-}
-*/
+
 
 @media (max-width: 940px) {
     .redes-sociales {
         margin-left: 0px;
         display: block;
     }
-    #instagram {
-        margin-left: 0;
-        margin-top: 0px;
+    .top {
+        padding-top: 8vw;
+    }
+    #twitter {
+        width: 6vw;
+    }
+    #instagram  {
+        width: 6vw;
     }
     nav img {
-        width: 27vw;
+        width: 120px;
         margin-top: 7px;
     }
     nav ul {
         position: fixed;
-        top: 11vw;
+        top: 6.7%;
         left: -100%;
         background: var(--background-header-open);
         height: 100%;
@@ -303,21 +245,31 @@ nav .menu-btn i{
     }
 /* INICIO */
 .inicio {
-    background-color: -background-body;
-    height: 80vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+.inicio-text {
+    justify-content: center;
     text-align: center;
-    align-items: baseline;
 }
 #inicio-text-h1 {
-    font-size: 40px;
+    font-size: 40vw;
 }
 #inicio-text-h2 {
     font-size: 20px;
     font-weight: 200;
 }
 #inicio-image {
-    display: none;
+    float: initial;
+    width: 40vw;
+    margin-top: 20vw;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 /* TEAM 1*/
 .teams {
     display: flex;
@@ -325,14 +277,14 @@ nav .menu-btn i{
     align-items: center;
 }
 #team-1 {
-    height: 50px;
-    width: 50px;
+    height: 14vw;
+    width: 14vw;
     border-radius: 50%;
     background-color: var(--color-text);
     margin-left: 20px;
 }
 #team-1-text {
-    font-size: 20px;
+    font-size: 7vw;
     font-weight: 600;
 }
 .team-1 {
@@ -342,24 +294,25 @@ nav .menu-btn i{
 }
 /* TEAM 2*/
 .leaderboard-text {
-    font-size: 20px;
+    font-size: 5vw;
 }
 #inicio-text-h1 {
-    font-size: 34px;
+    margin-top: 7vw;
+    font-size: 10vw;
 }
 #inicio-text-h2 {
-    font-size: 16px;
+    font-size: 4vw;
     font-weight: 200;
 }
 #team-2 {
-    height: 40px;
-    width: 40px;
+    height: 11vw;
+    width: 11vw;
     border-radius: 50%;
     background-color: var(--color-text);
     margin-left: 20px;
 }
 #team-2-text {
-    font-size: 10px;
+    font-size: 5vw;
     font-weight: 600;
 }
 .team-2 {
@@ -369,14 +322,14 @@ nav .menu-btn i{
 }
 /* TEAM 3*/
 #team-3 {
-    height: 40px;
-    width: 40px;
+    height: 11vw;
+    width: 11vw;
     border-radius: 50%;
     background-color: var(--color-text);
     margin-left: 20px;
 }
 #team-3-text {
-    font-size: 10px;
+    font-size: 5vw;
     font-weight: 600;
 }
 .team-3 {
@@ -386,3 +339,4 @@ nav .menu-btn i{
 }
 
 }
+
