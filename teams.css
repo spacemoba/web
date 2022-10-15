@@ -5,6 +5,8 @@
     --color-text: #000;
     --color-text-white: #fff;
     --background-body: #e7e7e7;
+    --color-1: #d6d6d6;
+    --color-2: #dcdcdc;
 }
 body {
  background-color: var(--background-body);
@@ -22,8 +24,19 @@ footer {
     background-color: var(--background-body);
 }
 .team-perso img {
+    display: block;
+    justify-content: center;
+}
+.img-logo {
     width: 20vw;
     padding-top: 6vw;
+}
+.ig-logo {
+    color: var(--color-text);
+    font-size: 4vw;
+    margin-top: 2vw;
+    text-align: center;
+    width: 100%;
 }
 .team-perso {
     display: flex;
@@ -148,9 +161,47 @@ footer {
     height: 20%;
     width: 90%;
     margin: 0px auto;
-    margin-top: 10vw;
+    margin-top: 30vw;
 }
-
+/* TIME LINE */
+.time-line h2 {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    margin-top: 2vw;
+}
+.time_line-table th{
+    margin-left: 2vw;
+}
+.player img {
+    width: 2vw;
+    height: 1.2vw;
+    margin-top: 0.4vw;
+    margin-left: 1vw;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    text-align: left;
+}
+td, th {
+    padding: 0.2vw;
+    font-size: 1.3vw;
+}
+.border {
+    border: 0.1vw solid #000;
+}
+.color-1 {
+    background-color: var(--color-1);
+}
+.color-2 {
+    background-color: var(--color-2);
+}
+.nationality {
+    display: flex;
+}
 @media (max-width: 940px) {
     .page {
         text-align: center;
