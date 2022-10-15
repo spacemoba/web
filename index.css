@@ -7,6 +7,9 @@
     --color-text-white: #fff;
     --background-body: #e7e7e7;
 }
+body {
+    background-color: var(--background-body);
+}
 *{
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -23,10 +26,10 @@ footer p{
     font-size: 1.2vw;
 }
 #twitter {
-    width: 2vw;
+    font-size: 2vw;
 }
 #instagram  {
-    width: 2vw;
+    font-size: 2vw;
     margin-left: 1vw;
 }
 #hover {
@@ -34,7 +37,6 @@ footer p{
     color: var(--main-color);
 }
 header {
-    position: fixed;
     width: 100%;
     z-index: 10000;
 }
